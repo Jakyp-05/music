@@ -1,0 +1,76 @@
+.clour .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clour .container h2 {
+  margin-top: 130px;
+  margin-bottom: 70px;
+  width: 508px;
+  color: #180202;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+}
+
+.clour-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1050px;
+  height: 425px;
+  position: relative;
+}
+
+.clour-card {
+  position: absolute;
+  width: 324px;
+  height: 302px;
+  border: 1px solid #7d75754d;
+  border-radius: 30px;
+  filter: drop-shadow(0 0 0.75rem #7E767633);
+}
+
+.clour-card:nth-child(2) {
+  position: absolute;
+  width: 453px;
+  height: 423px;
+  z-index: 99;
+  background-color: #ffffff;
+}
+
+.clour-card:first-child {
+  position: absolute;
+  left: 0;
+}
+
+.clour-card:last-child {
+  position: absolute;
+  right: 0;
+}
+
+.btn-actions {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.next {
+  position: absolute;
+  left: 1100px;
+}
+
+.prev {
+  position: absolute;
+  right: 50px;
+}

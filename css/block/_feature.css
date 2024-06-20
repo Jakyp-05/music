@@ -1,0 +1,131 @@
+.feature {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.feature .container {
+  display: flex;
+  align-items: center;
+  column-gap: 187px;
+}
+
+.feature-content h2 {
+  width: 460px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  font-family: "Rubik", sans-serif;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px;
+  margin-top: 61px;
+}
+
+.content-block {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.block-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+}
+
+.block-image-first {
+  width: 96px;
+  height: 96px;
+  border: 3px solid rgba(246, 128, 128, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.block-image-first::before {
+  content: "";
+  width: 96px;
+  height: 96px;
+  border: 3px solid rgba(255, 0, 0, 1);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-left: -3px;
+  margin-bottom: -3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+
+.block-image-last {
+  width: 69px;
+  height: 69px;
+  border: 2px solid rgba(253, 216, 216, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.block-content h2 {
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 43px;
+  font-family: "Rubik", sans-serif;
+  color: #180202;
+  margin-bottom: 5px;
+}
+
+.block-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Rubik", sans-serif;
+  color: #180202;
+  opacity: 70%;
+  margin-bottom: 10px;
+}
+
+.block-content span {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ff4948;
+  cursor: pointer;
+}
+
+.feature-image {
+  position: relative;
+}
+
+.image-position {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  z-index: -1;
+}
+
+.bacground-position {
+  position: absolute;
+  bottom: -90px;
+  left: -140px;
+  z-index: -1;
+  transform: rotate(360deg);
+}
+
+.bacground-position-last {
+  position: absolute;
+  right: -200px;
+  bottom: -100px;
+  z-index: -1;
+}

@@ -1,0 +1,49 @@
+.boxing {
+  max-width: 1069px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.boxing .container {
+  display: flex;
+  align-items: center;
+}
+
+.boxing-content {
+  width: 390px;
+}
+
+.boxing-content h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  color: #000000;
+}
+
+.boxing-box {
+  margin-top: 28px;
+}
+
+.boxing-block {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.boxing-block h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+  opacity: 70%;
+}
+
+.boxing-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
